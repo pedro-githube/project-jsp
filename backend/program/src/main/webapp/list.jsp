@@ -26,7 +26,7 @@ if (list == null) {
 		<div class="form-content-erro">
 			<div class="well">
 				<div class="alert alert-danger" id="Erro">
-			  		<p><strong>Err !</strong> Não Foi Possível Encontrar a Lista.</p>
+			  		<p><strong>Error !</strong> List not found.</p>
 				</div>
 			</div>
 		</div>
@@ -36,7 +36,7 @@ if (list == null) {
 	<div class="container register-form">
             <div class="form">
                 <div class="note">
-                    <p>List of users</p>
+                    <p>Users</p>
                 </div>
                 <div class="form-content">
                     <div class="well">

@@ -12,7 +12,7 @@ import sp.senai.br.model.User;
 
 
 public class UserDao {
-	private String url = "jdbc:mysql://localhost:3306/db?useTimezone=true&serverTimezone=UTC";
+	private String url = "jdbc:mysql://localhost:3306/data_base?useTimezone=true&serverTimezone=UTC";
 	private String user = "developer";
 	private String password = "root";
 	

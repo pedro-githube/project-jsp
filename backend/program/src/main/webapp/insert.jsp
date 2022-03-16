@@ -30,7 +30,7 @@ User user = (User) request.getAttribute("user");
             	<button class="btn btn-primary" onclick="window.location.href='/program/'">New user</button>
        		</div>
 	        <div class="btn-toolbar">
-	            <button class="btn btn-primary" onclick="window.location.href='/program/Users'">View user list</button>
+	            <button class="btn btn-primary" onclick="window.location.href='/program/Users'">Users</button>
 	        </div>
 		</div>
 <% } else { %>
@@ -44,7 +44,7 @@ User user = (User) request.getAttribute("user");
             <button class="btn btn-primary" onclick="window.location.href='/program/'">New user</button>
         </div>
         <div class="btn-toolbar">
-            <button class="btn btn-primary" onclick="window.location.href='/program/users'">View user list</button>
+            <button class="btn btn-primary" onclick="window.location.href='/program/users'">Users</button>
         </div>
 	</div>
 <% } %>
