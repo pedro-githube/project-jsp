@@ -1,5 +1,5 @@
-create database db;
-use db;
+create database data_base;
+use data_base;
 
 create table users(
 	id int auto_increment primary key,
